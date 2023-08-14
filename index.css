@@ -353,7 +353,7 @@
         nav.upper-nav .inputs{
             display: flex;
             flex-direction: row;
-            width: 35%;
+            width: 30%;
         }
         nav.links-nav {
             height: 0;
