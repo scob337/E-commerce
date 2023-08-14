@@ -260,10 +260,12 @@
         nav.links-nav .container{
             position: relative;
             width: 100%;
+            
         }
         nav.upper-nav .chart{
             display: flex;
             gap: 5px;
+
         }
         nav.upper-nav .chart i{
             font-size: 24px;
@@ -323,6 +325,11 @@
             transition: all .2s linear;
 
         }
+        .service-icons{
+            height: 300px !important;
+        }
+        .service-icons .icon{
+        }
 
 .cart-list .cart-option{
     font-size: 14px;
@@ -335,14 +342,17 @@
     font-size: 12px;
     padding: 5px;
 }
+
 }
     @media ( min-width:721px ) and (max-width:1000px){
 
         nav.upper{
             display: flex;
+            
         }
         nav.upper-nav .inputs{
             display: flex;
+            flex-direction: row;
             width: 35%;
         }
         nav.links-nav {
@@ -397,12 +407,13 @@
             justify-content: center;
             align-items: center;
             gap: 10px;
-            padding: 10px;
+            padding: 20px;
             -webkit-transition: all .2s linear;
             -moz-transition: all .2s linear;
             -ms-transition: all .2s linear;
             -o-transition: all .2s linear;
 }
+
     }
     /* NavS Style End */
     /* Header Style */
@@ -487,7 +498,8 @@
                         color: #555;
                     }
             @media ( max-width:720px ) {
-
+                header{
+                }
                 header .container .text{
                     width: 250px ;
                     height: 250px;
@@ -973,9 +985,10 @@ footer .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 50vh;
+    min-height: 40vh;
     flex-wrap: wrap;
     padding: 30px !important;
+    border-top: 2px solid #DCE3E5;
 
 
 }
