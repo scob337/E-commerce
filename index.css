@@ -366,6 +366,7 @@
         }
         nav.links-nav .container .icons{
             display: flex;
+            flex-direction:row;
         }
         nav.links-nav .container > ul {
             width: 100%;
